@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Ramos</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" href="img/icon-32x32.png">
+    <script src="https://kit.fontawesome.com/0b847c14b4.js" crossorigin="anonymous"></script>
+    <script src="/javascript/script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <div class="logo">
+            <img src="/img/LOGO EGL (BRANCA).png" alt="">
+        </div>
+
+
+        <div class="navigation">
+            <u class="nav-list">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">CURSOS</a></li>
+                <li><a href="#">EQUIPE</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </u>
+
+        </div>
+
+
+        <div class="area-aluno">
+            <button>ÁREA DO ALUNO</button>
+
+        </div>
+
+        <div class="hamburger"></div>
+
+    </header>
+
+
+
+    <main>
+
+        <div class="icon-green" onclick="abrirWhatsapp()">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+
+        <div class="container-inicio">
+
+            <div class="container-texto">
+
+                <h1 class="text-white font-bold text-6xl">SEJA BEM-VINDO</h1>
+                <p class="text-white text-2xl">Venha fazer parte da nossa Escola de Inglês e embarque em uma jornada incrível de aprendizado e crescimento! Aqui, oferecemos uma experiência única, voltada para o aprimoramento do idioma de forma dinâmica e interativa.</p>
+                <button class="uppercase">Matricule-se</button>
+
+            </div>
+
+            <div class="container-imagem">
+                <img src="img/LOGO EGL.png" alt="Imagem" class="imagem-inicio">
+
+            </div>
+
+        </div>
+
+
+
+        <div class="container-cursos">
+
+            <div class="texto-cursos">
+                <h2>CONHEÇA NOSSOS CURSOS</h1>
+                <h1>Aprenda um novo idioma!</h1>
+
+            </div>
+
+            <div class="lista-de-cursos">
+
+                <div class="english-aviation">
+                    <div class="english-aviation-superior">
+                        <img src="img-cursos/Aviation English.jpeg" alt="Ingles Aeronautico">
+                        <h1>Inglês Aeronautico</h1>
+                        <p>Com foco na segurança da aviação, esse curso prepara os profissionais como pilotos, comissários de bordo e mecânicos para se comunicar em inglês no seu ambiente de trabalho.</p>
+
+                    </div>
+                    <div class="english-aviation-inferior">
+                        <button id="openModalBtn">SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+
+                <div class="conversation-english">
+                    <div class="conversation-english-superior">
+                        <img src="img-cursos/Conversation English.jpeg" alt="Conversação em Inglês">
+                        <h1>Conversação em Inglês</h1>
+                        <p>Nosso curso mais procurado, o qual prepara os alunos para o domínio da língua falada. O curso de "conversation", como é chamado aqui, foca na habilidade da fala, usando método específico para desenvolver a conversação.</p>
+                    </div>
+                    <div class="conversation-english-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+
+                <div class="shineon-english">
+                    <div class="shineon-english-superior">
+                        <img src="img-cursos/Shine On.jpeg" alt="Shine On Inglês">
+                        <h1>Shine on! (Inglês)</h1>
+                        <p>Nosso curso de inglês infantil atende crianças de 4 a 10 anos e é aplicado através de recursos lúdicos próprios para a idade, como jogos, brincadeiras, músicas, pintura, corte, colagem e contação de história</p>
+                    </div>
+                    <div class="shineon-english-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+                <div class="linkit-english">
+                    <div class="linkit-english-superior">
+                        <img src="img-cursos/Link It! (Inglês).jpeg" alt="Link It Inglês">
+                        <h1>Link It! (Inglês)</h1>
+                        <p>Curso voltado para pré-adolescentes e adolescentes de 11 a 15 anos, traz a temática e a linguagem próprias da idade o que garante o interesse do aluno em realizar e se aprofundar nas atividades propostas.</p>
+                    </div>
+                    <div class="linkit-english-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+                <div class="american-english">
+                    <div class="american-english-superior">
+                        <img src="img-cursos/American Conversation.jpg" alt="American English File (AEF)">
+                        <h1>American English File (AEF)</h1>
+                        <p>Voltado para adolescentes acima dos 15 anos e adultos de todas as idades, é um livro envolvente, faz com que o aluno sinta vontade de falar inglês. Com contexto atualizado, situações do dia-a-dia e textos instigantes, dentro de uma metodologia comunicativa.</p>
+                    </div>
+                    <div class="american-english-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+                <div class="curso-german">
+                    <div class="curso-german-superior">
+                        <img src="img-cursos/13.jpeg" alt="Schritte International Neu">
+                        <h1>Schritte International Neu (alemão)</h1>
+                        <p>Curso de alemão para jovens e adultos com metodologia comunicativa moderna, trabalha as habilidades de leitura, compreensão auditiva, escrita e possui foco na conversação através de atividades extras.</p>
+                    </div>
+                    <div class="curso-german-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+                <div class="curso-german2">
+                    <div class="curso-german2-superior">
+                        <img src="img-cursos/12.jpeg" alt="Beste Freunde">
+                        <h1>Beste Freunde (alemão)</h1>
+                        <p>Crianças e adolescentes são o público-alvo desse curso de alemão. Levando em conta o universo de vivências dos estudantes dessa idade, o livro traz o conteúdo de forma leve e divertida.</p>
+                    </div>
+                    <div class="curso-german2-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+                <div class="curso-italian">
+                    <div class="curso-italian-superior">
+                        <img src="img-cursos/14.jpg" alt="Espresso Ragazzi">
+                        <h1>Espresso Ragazzi – corso di italiano (a1)</h1>
+                        <p>A internet, cada vez mais, faz parte da vida de qualquer estudante, principalmente, quando se trata de aprender um novo idioma. Neste sentido, a Alma</p>
+                    </div>
+                    <div class="curso-italian-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+                <div class="curso-italian2">
+                    <div class="curso-italian2-superior">
+                        <img src="img-cursos/15.png" alt="Nuovissimo progetto italiano">
+                        <h1>Nuovissimo progetto italiano 1</h1>
+                        <p>Bem-vindo a educação 4G. Se você gosta de se conectar e procura um material interativo, jovem, atraente, inovador e que, acima de tudo, proporcione a</p>
+                    </div>
+                    <div class="curso-italian2-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+                <div class="curso-french">
+                    <div class="curso-french-superior">
+                        <img src="img-cursos/16.jpg" alt="ALTER EGO+">
+                        <h1>ALTER EGO+ (Francês)</h1>
+                        <p>O curso de francês conta com o aprendizado no qual o aluno está inserido em um contexto atual e não é mais visto como aprendiz, pois o livro Alter Ego</p>
+                    </div>
+                    <div class="curso-french-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+                
+                <div class="curso-spanish">
+                    <div class="curso-spanish-superior">
+                        <img src="img-cursos/17.jpg" alt="ELExprés">
+                        <h1>ELExprés (Espanhol)</h1>
+                        <p>Curso voltado para jovens e adultos de nível iniciante, com livros de Curso Intensivo e Caderno de Exercícios que propõem atividades de compreensão, e</p>
+                    </div>
+                    <div class="curso-spanish-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+                <div class="curso-spanish2">
+                    <div class="curso-spanish2-superior">
+                        <img src="img-cursos/18.jpg" alt="Compañeros">
+                        <h1>Compañeros (Espanhol)</h1>
+                        <p>Apresentação Curso voltado para crianças e adolescentes de nível iniciante, com livros de Curso de Espanhol e Caderno de Exercícios adequados a faixa</p>
+                    </div>
+                    <div class="curso-spanish2-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="texto-cursos2">
+                <h2>CONHEÇA NOSSOS OUTROS CURSOS</h1>
+            </div>
+
+            <div class="lista-de-cursos2">
+
+                <div class="computer">
+                    <div class="computer-superior">
+                        <img src="img-cursos/20.png" alt="Computação">
+                        <h1>Computação</h1>
+                        <p>Curso de operador de computador, com módulos de Windows, pacote office, internet, e computação em nuvem e em breve também de introdução a programação. O curso contém duração de 1 ano.</p>
+
+                    </div>
+                    <div class="computer-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+
+                <div class="redacao">
+                    <div class="redacao-superior">
+                        <img src="img-cursos/21.png" alt="Redação">
+                        <h1>Redação</h1>
+                        <p>É um preparatório para a redação de vestibulares, seja ENEM, Unesp, UFSCar, Unicamp entre outros.</p>
+
+                    </div>
+                    <div class="redacao-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+                <div class="psicologo">
+                    <div class="psicologo-superior">
+                        <img src="img-cursos/22.png" alt="Atendimento Neuropsicopedagógico">
+                        <h1>Atendimento Neuropsicopedagógico</h1>
+                        <p>O atendimento neuro psicopedagógico visa identificar e trabalhar todos os entraves que prejudicam o processo de aprendizagem do indivíduo.</p>
+
+                    </div>
+                    <div class="psicologo-inferior">
+                        <button>SAIBA MAIS ⟩</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+        <div class="venha-fazer-parte">
+            <img src="/img/faixa_fazer_parte.jpg" alt="Venha fazer parte!">
+        </div>
+
+
+
+        <div class="sobre-nos">
+
+            <div class="container-left">
+                <img src="img/a_escola.jpg" alt="">
+            </div>
+
+            <div class="container-right">
+                <div class="container-imagem">
+                    <img src="img/logo_fundo_escuro.png" alt="">
+
+                </div>
+
+                <div class="container-sobre">
+                    <h1>CONHEÇA NOSSA ESCOLA</h1>
+                    <br>
+                    <p>O EGL, Instituto de Cultura e Idiomas, na época com o nome English Global Language, foi fundado em 2014, a princípio com o objetivo de preparar os alunos para adquirir fluência no inglês geral e inglês de aviação e posteriormente, expandindo sua atuação, passou também a oferecer outros idiomas, como espanhol, francês, alemão, italiano, português e mandarim, além de outros nichos do inglês, como inglês jurídico e de negócios. Ao adotar o nome de Instituto, deu início à oferta de aulas e cursos de redação, literatura, reforço escolar e preparação para o Enem e vestibular </p>
+                
+                </div>
+
+                <div class="container-social-media">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+
+                </div>
+
+                <div class="container-info">
+
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>R. Prudente de Moraes, 731 - Centro - Itápolis/SP</p>
+                    </div>
+
+                    <div>
+                        <i class="fab fa-whatsapp"></i>
+                        <p>(16) 99716-8155</p>
+                    </div>
+
+                    <div>
+                        <i class="far fa-clock"></i>
+                        <p>Atendimento de Seg. a Sex. das 8h00 às 22h00. Sábados das 8h00 às 15h00</p>
+                    </div>
+
+                </div>
+
+                <div class="container-botao">
+                    <button>SAIBA MAIS ⟩</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="saiba-horarios">
+            <img src="img/faixa_saber_preco.jpg" alt="">
+
+        </div>
+
+
+        <div class="nossa-equipe">
+
+            <div class="container-left">
+                <img src="img/nossa_equipe.jpg" alt="equipe">
+            </div>
+
+            <div class="container-right">
+                <img src="/img/logo_fundo_escuro.png" alt="">
+                <h1>CONHEÇA NOSSA EQUIPE</h1>
+                <p>O nosso time de atendimento preza pela cortesia e bom atendimento visando o bem estar dos alunos, pais e responsáveis que por aqui passam. Nosso corpo docente é todo formado de professores e pedagogos e estamos em constante treinamento e adaptação para melhor atender as demandas que nos são constantemente apresentadas, sejam elas de atendimento ou didática.</p>
+            </div>
+
+        </div>
+
+        <div class="egl-online">
+
+            <div class="container-left">
+
+                <div class="container-left-texto">
+                    <h1>EGL ONLINE</h1>
+                    <h5>Atendimento remoto com a mesma qualidade do atendimento pessoal. Somos pioneiros no atendimento à distância e contamos com experiência de mais de cinco anos no uso da tecnologia para mediar as aulas on-line.</h5>
+                    <br>
+                    <h5>Uso de plataformas como zoom, skype e google meet.</h5>
+                    <h5>Nessa modalidade oferecemos aulas em grupos ou individuais</h5>
+                </div>
+
+                <div class="container-left-contato">
+                    <button>MATRICULE-SE AGORA</button>
+                    <img src="img/zoom-logo.png" alt="">
+                    <img src="img/skype-logo.png" alt="">
+                    <img src="/img/googlemeet-logo.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="container-right">
+                <img src="img/ICON EGL ONLINE.png" alt="">
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer></footer>
+
+
+
+</body>
+</html>
